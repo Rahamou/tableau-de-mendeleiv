@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding:0;
+}
+td{
+    text-align: center;
+    font-size: 12px;
+}
+.violet{
+    background-color:#8679b9;
+
+}
+.jaune{
+    background-color: #eff2ca;
+}
+.verte{
+    background-color:#92dbc6 ;
+}
+.vert{
+    background-color:#98bc91 ;
+}
+
+.orange{
+    background-color:#ed9d83 ;
+}
+.bleue{
+    background-color:#7bb0ce ;
+}
+.saumon{
+    background-color: #f1caa8;
+}
+.rose{
+    background-color: #ffedc3;
+}
+.rouge{
+    background-color:#ef9aa5 ;
+
+}
+.grenadine{
+    background-color: #c26c9c;
+}
+
+#profil{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+}
+
+.image {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 40%;
+
+} 
+
+.table {
+    display:flex;
+    justify-content: center;
+    
+    
+    
+}
+
+
+.vide {
+    height: 30px;
+
+}
+@media screen and (max-width: 1170px) {
+    table tr td {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1022px) {
+    table tr td {
+        font-size: 8px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    table tr td {
+        font-size: 5px;
+    }
+}
+@media screen and (max-width: 400px) {
+    table tr td {
+        font-size: 2px;
+    }
+}
